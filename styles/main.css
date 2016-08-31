@@ -20,40 +20,48 @@ div#homepage{
 }
 
 
-.gmail{
+.header_content{
+	font-size: 13px;
 	margin-left: 80%;
-	display: inline;
-	
+	display: inline-block;
+	font-family: arial, sans-serif;
+	min-height: 30px;
 	padding-left: 20px;
 
 }
 
-.gmail a{
-	color: black;
+.header_content a{
+	margin-right: 10px;
+	color: 111;
 	text-decoration: none;
 }
 
-
-
-
-.images{	
-	display: inline;
-	
-	padding-left: 20px;
-}
-
-.google_apps{
-	display: inline;
-	
-	padding-left: 20px;
-}
-
-.sign_in{
-	display: inline;
-	
-	padding-left: 20px;
+.header_content a input[type="button"]{
+	background-color: #4285f4;
+	font-weight: bold;
+	color: #fff;
+	outline: none;
+	border-style: none;
+	padding: 5px 10px;
+	cursor: default;
 
 }
+
+.img_g{
+	margin-bottom: -10px;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+	background-position: -132px -38px;
+	background-size: 528px 68px;
+
+}
+
+.img_g:hover{
+	opacity: .75;
+}
+
 
 
 
@@ -70,14 +78,14 @@ div#homepage{
 .logo{
 	background-color:
 	padding-top: 109px;
-	margin-left: 500px;
-	margin-top: -10px;
+	margin-left: 450px;
+	margin-top: 50px;
 	margin-right: 400px;
 	align: center;
 }
 
 p.country{
-	margin-left: 320px;
+	margin-left: 345px;
 	margin-top: -25px;
 	color: blue;
 	position: absolute;
@@ -91,34 +99,74 @@ p.country{
 }
 
 input[type="text"]{
-	width: 450px;
+	width: 550px;
 	height: 35px;
 	border: 1px solid #d9d9d9;
+
 }
 
 input[type="text"]:hover{
 	border: 1px solid blue;
 }
 
-
+.divider{
+	width: 10px;
+	height: auto;
+	display: inline-block;
+}
 
 .search_buttons{
+	min-height: 50px;
+	
 	margin-top: 30px;
-	text-align: center;
+	margin-left: 10px;
+	padding-top: 5px;
+}
 
+.search_buttons input[type="submit"]{
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: Transparent;
+	border-style: none;
+	color: #757575;
+	padding: 10px 16px;
+	min-width: 54px;
+	margin-top: 1px;
+	margin-left: 2px;
+}
+
+.search_buttons input[type="submit"]:hover{
+
+	border: 1px solid #c6c6c6;
+	
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	color: 222;
+}
+
+.search_buttons input[type="submit"]:focus{
+	border: 1px solid blue;
+	outline: none;
 }
 
 .other_languages{
-	padding-top: 30px;
-	
+	margin-left: 110px;
 }
 
 .language{
-	display: inline;
+	margin-left: ;
+	margin-top: 40px;
+	display: inline-flex;
 }
 
 a.language{
+	color: blue;
 	text-decoration: none;
+
+}
+
+a.language:hover{
+	text-decoration: underline;
 }
 
 .footer{
@@ -138,8 +186,16 @@ a.language{
 
 .left_side{
 	float: left;
+	margin-left: 30px;
+	word-spacing: 30px;
 }
 
 .right_side{
 	float: right;
+	margin-right: 30px;
+	word-spacing: 30px;
+}
+
+.left_side a:hover, .right_side a:hover{
+	text-decoration: underline
 }
