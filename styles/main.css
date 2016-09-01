@@ -285,16 +285,36 @@ a.language:hover{
 	margin-right: -10px;
 }
 
+.r_body a{
+	text-decoration: none;
+	color: #555;
+}
+
+.r_body .r_tab_links:hover{
+	
+	color: #111;
+}
+
+
 .tab_all{
+	border-bottom: 3px solid #4285f4;
 	float: left;
-	background-color: red;
 	height: 57px;
 	margin-left: 120px;
 	width: 33px;
 }
 
+.tab_all .r_tab_links{
+	
+	color: #4285f4;
+	
+}
+
+.tab_all .r_tab_links:hover{
+	color: #4285f4;	
+}
+
 .tab_images{
-	background-color: orange;
 	float: left;
 	height: 57px;
 	width: 58px;
@@ -302,35 +322,48 @@ a.language:hover{
 
 .tab_apps{
 	float: left;
-	background: yellow;
+
 	height: 57px;
 	width: 50px;
 }
 
 .tab_videos{
 	float: left;
-	background: green;
+
 	height: 57px;
 	width: 55px;
 }
 
 .tab_books{
 	float: left;
-	background: blue;
+
 	height: 57px;
 	width: 54px;
 }
 
 .tab_more{
 	float: left;
-	background: indigo;
+	
 	height: 57px;
 	width: 61px;
 }
 
+.r_d_arrow{
+	top: 34%;
+	margin-left: 2px;
+	margin-top: -2px;
+	border-color: #909090 transparent;
+	border-width: 4px 4px 0 4px !important;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	float: left;
+	position: absolute;
+}
+
 .tab_search_tools{
 	float: left;
-	background: violet;
+	
 	height: 57px;
 	width: 91px;
 }
@@ -351,7 +384,7 @@ a.language:hover{
 	border-style: none;
 	margin-top: 0px;
 	margin-bottom: -5px;
-	margin-left: 25px;
+	margin-left: 10px;
 	width: 28px;
 	height: 29px;
 	opacity: .75;
