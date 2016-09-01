@@ -206,6 +206,7 @@ a.language:hover{
 	height: 60px;
 	margin: -10px -10px 0 -10px;
 	min-width: 1200px;
+	font-family: arial, sans-serif;
 	
 }
 
@@ -241,4 +242,117 @@ a.language:hover{
 	border-style: none;
 	width: 24px;
 	height: 24px;
+
+}
+
+.r_apps{
+	background: url(../images/i1_1967ca6a.png) no-repeat -135px -43px;
+	opacity: .75;
+	float:right;
+	margin-top: 15px;
+	margin-right: 10px;
+	width: 24px;
+	height: 24px;
+}
+
+.r_sign_in{
+	margin-top: 10px;
+	margin-right: 50px;
+	margin-left: 10px;
+	float: right;
+	
+	height: 30px;
+	width: 62px;
+}
+
+.r_sign_in .r_button{
+	cursor: pointer;
+	border-style: none;
+	height: 35px;
+	width: 65px;
+	background-color: #4285f4;
+	color: #fff;
+	font-weight: bold;
+}
+
+.r_body{
+	border-bottom: 1px solid #ebebeb;
+	color: #555;
+	text-align: center;
+	min-width: 1080px;
+	height: 57px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.tab_all{
+	float: left;
+	background-color: red;
+	height: 57px;
+	margin-left: 120px;
+	width: 33px;
+}
+
+.tab_images{
+	background-color: orange;
+	float: left;
+	height: 57px;
+	width: 58px;
+}
+
+.tab_apps{
+	float: left;
+	background: yellow;
+	height: 57px;
+	width: 50px;
+}
+
+.tab_videos{
+	float: left;
+	background: green;
+	height: 57px;
+	width: 55px;
+}
+
+.tab_books{
+	float: left;
+	background: blue;
+	height: 57px;
+	width: 54px;
+}
+
+.tab_more{
+	float: left;
+	background: indigo;
+	height: 57px;
+	width: 61px;
+}
+
+.tab_search_tools{
+	float: left;
+	background: violet;
+	height: 57px;
+	width: 91px;
+}
+
+.settings{
+	background-color: #f5f5f5;
+	float: right;
+	margin-top: 10px;
+	margin-right: 30px;
+	border: 2px solid #ebebeb;
+	border-radius: 5px;
+	width: 72px;
+}
+
+.settings button[type="button"]{
+	background:url(../images/nav_logo242.png);
+	background-position: -40px -256px;
+	border-style: none;
+	margin-top: 0px;
+	margin-bottom: -5px;
+	margin-left: 25px;
+	width: 28px;
+	height: 29px;
+	opacity: .75;
 }
