@@ -4,14 +4,21 @@
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	<meta charset="UTF-8">
 	<title>Results Page</title>
+
 </head>
 <body>
 	<div class="results_header">
 		<div class="r_logo"><img src="images/googlelogo_color_272x92dp.png"/></div>
 		<div class="r_searchbox">
-			<input type="text" name="rsearchbox">
+		<!-- <input type="text" name="rsearchbox"> -->
+		<form id="cse-search-box" action="resultspage.html">
+						<input id="search" name="q" type="text" autocomplete="off" value="" dir="ltr" spellcheck="false">
+		
+			 
 		</div>
+
 		<div class="r_search_button"><button type="submit" value=""/ class="r_btn"></div>
+		</form>
 		<div class="r_sign_in"><button type="button" class="r_button"> Sign in</div>
 		<div class="r_apps"></div>
 	</div>	
@@ -29,13 +36,24 @@
 			<div class="settings"><button type="button"></button></div>
 		</div>
 
+		
+
 	</div>
 	
 	<div class="r_lower_body">
 		<div class="r_bar"><p>About 2,840,400 results (0.49 seconds)</p></div>
 		<div class="r_content">
-	
+			<div id="search_results">
+				<p>webpage link here!</p>
 
+				<p>webpage link here!</p>
+				<p>webpage link here!</p>
+				<p>webpage link here!</p>
+				<p>webpage link here!</p>
+				<p>webpage link here!</p><p>webpage link here!</p>
+				<p>webpage link here!</p>
+				<p>webpage link here!</p><p>webpage link here!</p><p>webpage link here!</p>
+			</div>
 		</div>
 	</div>
 
@@ -45,7 +63,7 @@
 	</div>
 
 	<div class="lower_navbar">
-		asdsa
+		
 	</div>
 
 	<div class="r_footer">
@@ -68,5 +86,21 @@
 		</div>
 	</div>
 
+
+<!--
+<script>
+  (function() {
+    var cx = '';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+     gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+	//doesn't work, no <gcse:searchresults-only>
+--> 
 </body>
 </html>
