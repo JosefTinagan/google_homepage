@@ -200,6 +200,7 @@ a.language:hover{
 	text-decoration: underline
 }
 
+/*  resultspage.html css part */
 
 .results_header{
 	background-color: #f2f2f2;
@@ -349,7 +350,7 @@ a.language:hover{
 }
 
 .r_d_arrow{
-	top: 34%;
+	top: 12%;
 	margin-left: 2px;
 	margin-top: -2px;
 	border-color: #909090 transparent;
@@ -396,6 +397,91 @@ a.language:hover{
 
 }
 
+#search_results a:link{
+	color: blue;
+	text-decoration: none;
+	font-size: large;
+}
+
+#search_results a:active{
+	color: pink;
+}
+
+#search_results a:hover{
+	text-decoration:underline;
+}
+
+.content_1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#search_results .address{
+	margin-top: 0;
+	color: green;
+	padding: 0;
+		
+		
+	
+}
+
+#search_results p{
+	margin: 0;
+	color: #333;
+	font-size: small;
+}
+
+#search_results p span{
+	color: #888;
+}
+
+.grn_arrow{
+	border-width: 4px 4px 0 4px !important;
+	border-style: solid;
+	border-color: green transparent;
+	margin-left: 2px;
+	margin-top: 9px;
+	position: absolute;
+	float: left;
+	width: 0;
+	height: 0;
+	display: inline;
+
+}
+
+.author {
+	margin-left: 12px;
+	color: #777;
+	font-size: 14px;
+}
+
+.author:hover{
+	color: #111;
+}
+.author .spc{
+	font-size: 14px;
+}
+
+.gry_arrow{
+	border-width: 4px 4px 0 4px !important;
+	border-style: solid;
+	border-color: #909090 transparent;
+	margin-left: 4px;
+	margin-top: 9px;
+	position: absolute;
+	float: left;
+	width: 0;
+	height: 0;
+	display: inline;
+}
+
+.gry_arrow:hover{
+	border-color: #111 transparent;
+}
+
+
+
+
 .r_bar{
 	font-size: small;
 	color: #555;
@@ -417,8 +503,50 @@ a.language:hover{
 	font-size: medium;
 	margin-left: 129px;
 	color: #555;
-	width: 450px;
+	width: 565px;
 }
+
+
+
+.s_ul_1{
+	float: left;
+	margin-left: -35px;
+	
+}
+
+.s_ul_2{
+
+	float: right;
+	
+}
+
+.related_search_body ul{
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+
+}
+
+
+
+
+.s_related{
+	margin-bottom: 10px;
+}
+
+.s_related a:link{
+	text-decoration: none;
+	color: blue;
+	
+}
+
+
+
+.s_related a:hover{
+	text-decoration: underline;
+}
+
+
 
 .lower_navbar{
 	margin-left: 129px;
@@ -432,7 +560,9 @@ a.language:hover{
 
 
 .r_footer{
-	position: absolute;
+	clear: both;
+	position: relative;
+	margin-bottom: -5px;
 	bottom: 0;
 	background-color: #f2f2f2;
 	border-top: 1px solid #e4e4e4;
