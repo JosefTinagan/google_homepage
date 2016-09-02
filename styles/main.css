@@ -311,7 +311,7 @@ a.language:hover{
 }
 
 .tab_all .r_tab_links:hover{
-	color: #4285f4;	
+	color: #111;	
 }
 
 .tab_images{
@@ -432,9 +432,10 @@ a.language:hover{
 
 
 .r_footer{
-	position: relative;
+	position: absolute;
 	bottom: 0;
 	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
 	font-family: arial, sans-serif;
 	min-width: 1080px;
 	height: 80px;
@@ -444,7 +445,7 @@ a.language:hover{
 	color: #555;
 	padding-top: 1px;
 
-
+	line-height: 20px
 }
 
 
@@ -466,4 +467,30 @@ a.language:hover{
 
 .f_list{
 	margin-right: 40px;
+}
+
+.gsc-results-close-btn-visible{
+	opacity: 0;
+}
+
+.gsc-results-wrapper-visible{
+	opacity: 1;
+}
+
+
+
+.gcsc-branding { display: none;}
+
+.gsc-above-wrapper-area { border: none !important;}
+
+
+.gs-visibleUrl { 
+		font-size: 14px; 
+		color: #006621 !important; /* The links in the search results */
+} 
+
+.gsc-results-wrapper-overlay{
+	overflow: none;
+	box-shadow: none;
+	top: 0;
 }
